@@ -1,0 +1,64 @@
+<grid dataCount="0" elementCount="6">
+    <columns>
+        <col name="accessId" label="Urn" columnId="accessId" member="true"/>
+        <col name="type" label="Type" columnId="type" member="true"/>
+        <col name="title" label="Title" columnId="title" member="true"/>
+        <col name="reason" label="Reason" columnId="reason" member="true"/>
+        <col name="value" label="Value" columnId="value" member="true"/>
+        <col name="format" label="Format" columnId="format" member="true"/>
+        <col name="context" label="Context" columnId="context" member="true"/>
+        <col name="path" label="Path" columnId="path" member="true"/>
+        <col name="name" label="Name" columnId="name" member="true"/>
+        <col name="namespace" label="Namespace" columnId="namespace" member="true"/>
+        <col name="description" label="Description" columnId="description" member="true"/>
+        <col name="modified" label="Modified" columnId="modified" member="true"/>
+        <col name="creator" label="Creator" columnId="creator" member="true"/>
+        <col name="extra" label="Reference" columnId="extra" member="true"/>
+    </columns>
+    <rows>
+        <row>
+            <accessId>
+                <Caption>urn:o3bi:default:r:rule:a:1078</Caption>
+            </accessId>
+            <type>
+                <Caption>rule</Caption>
+            </type>
+            <title>
+                <Caption>Diferencia-con-prediccion-de-venta-mes-actual</Caption>
+            </title>
+            <reason>
+                <Caption>title</Caption>
+            </reason>
+            <value>
+                <Caption>Diferencia-con-prediccion-de-venta-mes-actual</Caption>
+            </value>
+            <format>
+                <Caption>application/o3rule+xml</Caption>
+            </format>
+            <context>
+                <Caption>runtime</Caption>
+            </context>
+            <path>
+                <Caption>ServerCatalog/BodegaForecast/1078.xview</Caption>
+            </path>
+            <name>
+                <Caption>Diferencia-con-prediccion-de-venta-mes-actual_rule_public</Caption>
+            </name>
+            <namespace>
+                <Caption/>
+            </namespace>
+            <description>
+                <Caption/>
+            </description>
+            <modified>
+                <Caption>2017-07-13T12:00:15.56-03:00</Caption>
+            </modified>
+            <creator>
+                <Caption>admin</Caption>
+            </creator>
+            <extra>
+                <Caption>cube: Bodega Forecast</Caption>
+            </extra>
+        </row>
+    </rows>
+</grid>

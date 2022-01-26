@@ -18,6 +18,7 @@
 package org.infoscoop.util;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.io.StringReader;
@@ -28,18 +29,21 @@ import java.util.Map;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 
 import org.apache.commons.collections.SequencedHashMap;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.w3c.dom.DOMException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
 
 /**
  * repeatable & keypath : 'tagname' : { 'key' : {...}, 'key' : {...}, ...}
@@ -53,26 +57,27 @@ import org.xml.sax.InputSource;
 public class Xml2Json {
 	private static Log log = LogFactory.getLog(Xml2Json.class);
 
-	private List keyPaths = new ArrayList();
+	private List<String> keyPaths = new ArrayList<String>();
 
-	private Map pathMaps = new HashMap();
+	private Map<String, String> pathMaps = new HashMap<String, String>();
 
-	private List repeatables = new ArrayList();
+	private List<String> repeatables = new ArrayList<String>();
+	private List<String> repeatableNames = new ArrayList<String>();
 
-	private List singles = new ArrayList();
+	private List<String> singles = new ArrayList<String>();
 
-	private List skips = new ArrayList();
+	private List<String> skips = new ArrayList<String>();
 
-	private List arrays = new ArrayList();
+	private List<String> arrays = new ArrayList<String>();
 
-	private Map namespaceResolvers = new HashMap();
+	private Map<String, String> namespaceResolvers = new HashMap<String, String>();
 
 	private String basePath;
 
 	private Xml2JsonListener listner = new NoOpListner();
 
 	class NoOpListner implements Xml2JsonListener {
-		public String text(String text)  {
+		public String text(String text) {
 			return text;
 		}
 	}
@@ -94,6 +99,13 @@ public class Xml2Json {
 	public void addSkipRule(String xpath) {
 		skips.add(xpath);
 	}
+	public void addRepeatableNames(String name) {
+		repeatableNames.add(name);
+	}
+	
+	public void addRepeatable(String xpath) {
+		repeatables.add(xpath);
+	}
 
 	public void addArrayPath(String xpath) {
 		arrays.add(xpath);
@@ -107,7 +119,7 @@ public class Xml2Json {
 		this.listner = textFilter;
 	}
 
-	public JSONObject xml2jsonObj(NodeList nodes) throws Exception {
+	public JSONObject xml2jsonObj(NodeList nodes)  {
 		this.basePath = null;
 		if (nodes == null || nodes.getLength() == 0)
 			return null;
@@ -120,7 +132,7 @@ public class Xml2Json {
 		return new JSONObject(map);
 	}
 
-	public JSONObject xml2jsonObj(Element element) throws Exception {
+	public JSONObject xml2jsonObj(Element element)  {
 		this.basePath = null;
 		Node baseNode = element.getParentNode();
 		if (baseNode != null && baseNode.getNodeType() == Node.ELEMENT_NODE)
@@ -129,19 +141,19 @@ public class Xml2Json {
 		return obj;
 	}
 
-	public String xml2json(NodeList nodes) throws Exception {
+	public String xml2json(NodeList nodes)  {
 		JSONObject obj = xml2jsonObj(nodes);
 		if (obj == null)
 			return "";
 		return obj.toString(1);
 	}
 
-	public String xml2json(Element element) throws Exception {
+	public String xml2json(Element element){
 		JSONObject obj = xml2jsonObj(element);
 		return obj.toString(1);
 	}
 
-	public String xml2json(String xml) throws Exception {
+	public String xml2json(String xml) throws IOException, ParserConfigurationException, SAXException {
 		DocumentBuilder builder = DocumentBuilderFactory.newInstance()
 				.newDocumentBuilder();
 		Document doc = builder.parse(new InputSource(new StringReader(xml)));
@@ -149,7 +161,7 @@ public class Xml2Json {
 		return xml2json(root);
 	}
 
-	private Object node2json(Element element) throws Exception {
+	private Object node2json(Element element) throws DOMException {
 		Map map = new SequencedHashMap();
 		String xpath = getXPath(element);
 		if (singles.contains(xpath)) {
@@ -170,7 +182,7 @@ public class Xml2Json {
 		return new JSONObject(map);
 	}
 
-	private void nodelist2json(Map map, NodeList nodes) throws Exception {
+	private void nodelist2json(Map map, NodeList nodes)  {
 		for (int i = 0; i < nodes.getLength(); i++) {
 			Node node = nodes.item(i);
 			switch (node.getNodeType()) {
@@ -203,7 +215,7 @@ public class Xml2Json {
 					obj.put(array);
 				} else {
 					String childName = childElm.getNodeName();
-					boolean isRepeatable = repeatables.contains(childXPath);
+					boolean isRepeatable = (repeatables.contains(childXPath) || repeatableNames.contains(childName));
 					boolean hasKey = keyPaths.contains(childXPath);
 					if (isRepeatable && hasKey) {
 						JSONObject obj = (JSONObject) map.get(childName);

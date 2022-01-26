@@ -1,0 +1,238 @@
+<concepts>
+    <concept>
+        <tax:concept xmlns:tax="http://ns.ideasoft.biz/schemas/o3/metadata/BusinessNomenclature/2012-03">
+            <tax:concept>CanaldeVenta</tax:concept>
+            <dc:dublinCore xmlns:dc="http://purl.org/dc/terms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="gloss:conceptDublinCoreType">
+                <dc:namespace>o3bi/taxonomiaCasoBodega</dc:namespace>
+                <dc:name>CanaldeVenta</dc:name>
+                <dc:type>concept</dc:type>
+                <dc:identifier>urn:o3:default:l:concept:a:448</dc:identifier>
+                <dc:title>CanaldeVenta</dc:title>
+                <dc:description>Es el medio por el que se realiza la venta con el Cliente, por ejemplo Vendedor y Distribuidor</dc:description>
+                <dc:creator>admin</dc:creator>
+                <dc:format>application/o3taxonomy.concept</dc:format>
+                <dc:created>2014-08-18T16:33:07.847-03:00</dc:created>
+                <dc:modifier>admin</dc:modifier>
+                <dc:modified>2014-08-18T16:33:07.847-03:00</dc:modified>
+                <dc:verified>false</dc:verified>
+                <dc:verifyResult>false</dc:verifyResult>
+            </dc:dublinCore>
+        </tax:concept>
+        <taxonomy>
+            <dc:dublinCore xmlns:dc="http://purl.org/dc/terms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tax:taxonomyDublinCoreType">
+                <dc:namespace>o3bi</dc:namespace>
+                <dc:name>taxonomiaCasoBodega</dc:name>
+                <dc:type>taxonomy</dc:type>
+                <dc:identifier>urn:o3bi:default:l:taxonomy:a:447</dc:identifier>
+                <dc:title>Taxonomía Caso Bodega</dc:title>
+                <dc:language>es_ES</dc:language>
+                <dc:description>Conceptos utilizados para el Caso de la Bodega que se distribuye con O3 BI.</dc:description>
+                <dc:creator>admin</dc:creator>
+                <dc:format>application/o3taxonomy+xml</dc:format>
+                <dc:created>2014-08-18T16:32:05.002-03:00</dc:created>
+                <dc:modifier>admin</dc:modifier>
+                <dc:modified>2014-08-18T16:41:17.178-03:00</dc:modified>
+                <dc:verified>false</dc:verified>
+                <dc:verifyResult>false</dc:verifyResult>
+            </dc:dublinCore>
+        </taxonomy>
+    </concept>
+    <concept>
+        <tax:concept xmlns:dc="http://purl.org/dc/terms" xmlns:tax="http://ns.ideasoft.biz/schemas/o3/metadata/BusinessNomenclature/2012-03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <tax:concept/>
+            <dc:dublinCore xsi:type="gloss:conceptDublinCoreType">
+                <dc:namespace>o3bi/ConceptosBasicos</dc:namespace>
+                <dc:name>Chardonnay</dc:name>
+                <dc:type>concept</dc:type>
+                <dc:identifier>urn:o3:default:l:concept:a:2005</dc:identifier>
+                <dc:title>Chardonnay</dc:title>
+                <dc:description>Uva blanca</dc:description>
+                <dc:creator>admin</dc:creator>
+                <dc:format>application/o3taxonomy.concept</dc:format>
+                <dc:created>2020-09-10T20:02:12.488Z</dc:created>
+                <dc:modifier>admin</dc:modifier>
+                <dc:modified>2020-09-10T20:02:12.488Z</dc:modified>
+            </dc:dublinCore>
+        </tax:concept>
+        <taxonomy>
+            <dc:dublinCore xmlns:dc="http://purl.org/dc/terms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tax:taxonomyDublinCoreType">
+                <dc:namespace>o3bi</dc:namespace>
+                <dc:name>ConceptosBasicos</dc:name>
+                <dc:type>taxonomy</dc:type>
+                <dc:identifier>urn:o3bi:default:l:taxonomy:a:2004</dc:identifier>
+                <dc:title>ConceptosBasicos</dc:title>
+                <dc:language>es_ES</dc:language>
+                <dc:description/>
+                <dc:creator>admin</dc:creator>
+                <dc:format>application/o3taxonomy+xml</dc:format>
+                <dc:created>2020-09-10T20:01:47.496Z</dc:created>
+                <dc:modifier>admin</dc:modifier>
+                <dc:modified>2020-09-10T20:02:48.953Z</dc:modified>
+                <dc:verified>false</dc:verified>
+                <dc:verifyResult>false</dc:verifyResult>
+                <dc:verifyReport>
+                    <empty/>
+                </dc:verifyReport>
+            </dc:dublinCore>
+        </taxonomy>
+    </concept>
+    <concept>
+        <tax:concept xmlns:tax="http://ns.ideasoft.biz/schemas/o3/metadata/BusinessNomenclature/2012-03">
+            <tax:concept>Cliente</tax:concept>
+            <dc:dublinCore xmlns:dc="http://purl.org/dc/terms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="gloss:conceptDublinCoreType">
+                <dc:namespace>o3bi/taxonomiaCasoBodega</dc:namespace>
+                <dc:name>Cliente</dc:name>
+                <dc:type>concept</dc:type>
+                <dc:identifier>urn:o3:default:l:concept:a:449</dc:identifier>
+                <dc:title>Cliente</dc:title>
+                <dc:description>Persona física o jurídica que compra productos ofrecidos por la compañía mediante un pago. Se trata de transacciones de compra realizadas frecuentemente, aunque también puede tratarse de cliente ocasionales.
+                    
+                    Los Clientes se clasifican en Cuentas Grandes, Cuentas Medianas, Cuentas Pequeñas, que responden al volumen de compra anual de los mismos.</dc:description>
+                <dc:creator>admin</dc:creator>
+                <dc:format>application/o3taxonomy.concept</dc:format>
+                <dc:created>2014-08-18T16:34:00.093-03:00</dc:created>
+                <dc:modifier>admin</dc:modifier>
+                <dc:modified>2014-08-18T16:34:00.093-03:00</dc:modified>
+                <dc:verified>false</dc:verified>
+                <dc:verifyResult>false</dc:verifyResult>
+            </dc:dublinCore>
+        </tax:concept>
+        <taxonomy>
+            <dc:dublinCore xmlns:dc="http://purl.org/dc/terms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tax:taxonomyDublinCoreType">
+                <dc:namespace>o3bi</dc:namespace>
+                <dc:name>taxonomiaCasoBodega</dc:name>
+                <dc:type>taxonomy</dc:type>
+                <dc:identifier>urn:o3bi:default:l:taxonomy:a:447</dc:identifier>
+                <dc:title>Taxonomía Caso Bodega</dc:title>
+                <dc:language>es_ES</dc:language>
+                <dc:description>Conceptos utilizados para el Caso de la Bodega que se distribuye con O3 BI.</dc:description>
+                <dc:creator>admin</dc:creator>
+                <dc:format>application/o3taxonomy+xml</dc:format>
+                <dc:created>2014-08-18T16:32:05.002-03:00</dc:created>
+                <dc:modifier>admin</dc:modifier>
+                <dc:modified>2014-08-18T16:41:17.178-03:00</dc:modified>
+                <dc:verified>false</dc:verified>
+                <dc:verifyResult>false</dc:verifyResult>
+            </dc:dublinCore>
+        </taxonomy>
+    </concept>
+    <concept>
+        <tax:concept xmlns:tax="http://ns.ideasoft.biz/schemas/o3/metadata/BusinessNomenclature/2012-03">
+            <tax:concept>Costo</tax:concept>
+            <dc:dublinCore xmlns:dc="http://purl.org/dc/terms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="gloss:conceptDublinCoreType">
+                <dc:namespace>o3bi/taxonomiaCasoBodega</dc:namespace>
+                <dc:name>Costo</dc:name>
+                <dc:type>concept</dc:type>
+                <dc:identifier>urn:o3:default:l:concept:a:451</dc:identifier>
+                <dc:title>Costo</dc:title>
+                <dc:description>Costo de un Producto que incluye su Costo de Producción, su Costo de Comercialización y los Costos Indirectos que son asignados al mismo.
+                    
+                    Este costo es utilizado como referencia para analizar la rentabilidad de los productos, comparando su valor de Venta Neta con este Costo.
+                    
+                    Refina término: Costo de Producción, Costo Indirecto, Costo de Comercialización.</dc:description>
+                <dc:creator>admin</dc:creator>
+                <dc:format>application/o3taxonomy.concept</dc:format>
+                <dc:created>2014-08-18T16:40:57.186-03:00</dc:created>
+                <dc:modifier>admin</dc:modifier>
+                <dc:modified>2014-08-18T16:40:57.186-03:00</dc:modified>
+                <dc:verified>false</dc:verified>
+                <dc:verifyResult>false</dc:verifyResult>
+            </dc:dublinCore>
+        </tax:concept>
+        <taxonomy>
+            <dc:dublinCore xmlns:dc="http://purl.org/dc/terms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tax:taxonomyDublinCoreType">
+                <dc:namespace>o3bi</dc:namespace>
+                <dc:name>taxonomiaCasoBodega</dc:name>
+                <dc:type>taxonomy</dc:type>
+                <dc:identifier>urn:o3bi:default:l:taxonomy:a:447</dc:identifier>
+                <dc:title>Taxonomía Caso Bodega</dc:title>
+                <dc:language>es_ES</dc:language>
+                <dc:description>Conceptos utilizados para el Caso de la Bodega que se distribuye con O3 BI.</dc:description>
+                <dc:creator>admin</dc:creator>
+                <dc:format>application/o3taxonomy+xml</dc:format>
+                <dc:created>2014-08-18T16:32:05.002-03:00</dc:created>
+                <dc:modifier>admin</dc:modifier>
+                <dc:modified>2014-08-18T16:41:17.178-03:00</dc:modified>
+                <dc:verified>false</dc:verified>
+                <dc:verifyResult>false</dc:verifyResult>
+            </dc:dublinCore>
+        </taxonomy>
+    </concept>
+    <concept>
+        <tax:concept xmlns:tax="http://ns.ideasoft.biz/schemas/o3/metadata/BusinessNomenclature/2012-03">
+            <tax:concept>Producto</tax:concept>
+            <dc:dublinCore xmlns:dc="http://purl.org/dc/terms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="gloss:conceptDublinCoreType">
+                <dc:namespace>o3bi/taxonomiaCasoBodega</dc:namespace>
+                <dc:name>Producto</dc:name>
+                <dc:type>concept</dc:type>
+                <dc:identifier>urn:o3:default:l:concept:a:452</dc:identifier>
+                <dc:title>Producto</dc:title>
+                <dc:description>Bien que ha sido producido o creado por la compañía como resultado de un proceso productivo que combina capital y trabajo. Se trata de distintos tipos de vinos, cada uno producido de acuerdo a un proceso particular y a partir de tipos de uva particulares, que son ofrecidos en diferentes mercados a consumidores que esperan satisfacer una necesidad y obtener beneficios de su consumo.</dc:description>
+                <dc:creator>admin</dc:creator>
+                <dc:format>application/o3taxonomy.concept</dc:format>
+                <dc:created>2014-08-18T16:41:17.178-03:00</dc:created>
+                <dc:modifier>admin</dc:modifier>
+                <dc:modified>2014-08-18T16:41:17.178-03:00</dc:modified>
+                <dc:verified>false</dc:verified>
+                <dc:verifyResult>false</dc:verifyResult>
+            </dc:dublinCore>
+        </tax:concept>
+        <taxonomy>
+            <dc:dublinCore xmlns:dc="http://purl.org/dc/terms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tax:taxonomyDublinCoreType">
+                <dc:namespace>o3bi</dc:namespace>
+                <dc:name>taxonomiaCasoBodega</dc:name>
+                <dc:type>taxonomy</dc:type>
+                <dc:identifier>urn:o3bi:default:l:taxonomy:a:447</dc:identifier>
+                <dc:title>Taxonomía Caso Bodega</dc:title>
+                <dc:language>es_ES</dc:language>
+                <dc:description>Conceptos utilizados para el Caso de la Bodega que se distribuye con O3 BI.</dc:description>
+                <dc:creator>admin</dc:creator>
+                <dc:format>application/o3taxonomy+xml</dc:format>
+                <dc:created>2014-08-18T16:32:05.002-03:00</dc:created>
+                <dc:modifier>admin</dc:modifier>
+                <dc:modified>2014-08-18T16:41:17.178-03:00</dc:modified>
+                <dc:verified>false</dc:verified>
+                <dc:verifyResult>false</dc:verifyResult>
+            </dc:dublinCore>
+        </taxonomy>
+    </concept>
+    <concept>
+        <tax:concept xmlns:dc="http://purl.org/dc/terms" xmlns:tax="http://ns.ideasoft.biz/schemas/o3/metadata/BusinessNomenclature/2012-03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <tax:concept/>
+            <dc:dublinCore xsi:type="gloss:conceptDublinCoreType">
+                <dc:namespace>o3bi/ConceptosBasicos</dc:namespace>
+                <dc:name>Tanque Cemento</dc:name>
+                <dc:type>concept</dc:type>
+                <dc:identifier>urn:o3:default:l:concept:a:2006</dc:identifier>
+                <dc:title>Tanque Cemento</dc:title>
+                <dc:description>Deposito para reposar la fermentacion</dc:description>
+                <dc:creator>admin</dc:creator>
+                <dc:format>application/o3taxonomy.concept</dc:format>
+                <dc:created>2020-09-10T20:02:48.953Z</dc:created>
+                <dc:modifier>admin</dc:modifier>
+                <dc:modified>2020-09-10T20:02:48.953Z</dc:modified>
+            </dc:dublinCore>
+        </tax:concept>
+        <taxonomy>
+            <dc:dublinCore xmlns:dc="http://purl.org/dc/terms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tax:taxonomyDublinCoreType">
+                <dc:namespace>o3bi</dc:namespace>
+                <dc:name>ConceptosBasicos</dc:name>
+                <dc:type>taxonomy</dc:type>
+                <dc:identifier>urn:o3bi:default:l:taxonomy:a:2004</dc:identifier>
+                <dc:title>ConceptosBasicos</dc:title>
+                <dc:language>es_ES</dc:language>
+                <dc:description/>
+                <dc:creator>admin</dc:creator>
+                <dc:format>application/o3taxonomy+xml</dc:format>
+                <dc:created>2020-09-10T20:01:47.496Z</dc:created>
+                <dc:modifier>admin</dc:modifier>
+                <dc:modified>2020-09-10T20:02:48.953Z</dc:modified>
+                <dc:verified>false</dc:verified>
+                <dc:verifyResult>false</dc:verifyResult>
+                <dc:verifyReport>
+                    <empty/>
+                </dc:verifyReport>
+            </dc:dublinCore>
+        </taxonomy>
+    </concept>
+</concepts>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jcrItem xmlns="http://ns.ideasoft.biz/o3bi/schema/JcrItem/2011-01">
+    <children>
+        <name>Bodega - Ventas por Vendedor y Variedad simple.rptdesign</name>
+        <primaryType>nt:file</primaryType>
+        <lastModified>2018-11-22T13:38:00.000Z</lastModified>
+    </children>
+    <children>
+        <name>Bodega - Ventas por Vendedor y Variedad.rptdesign</name>
+        <primaryType>nt:file</primaryType>
+        <lastModified>2018-11-22T13:38:00.000Z</lastModified>
+    </children>
+</jcrItem>
