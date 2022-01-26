@@ -72,6 +72,8 @@ public class Xml2Json {
 
 	private Map<String, String> namespaceResolvers = new HashMap<String, String>();
 
+  private Map<String, String> nameRenamer = new HashMap<>();
+
 	private String basePath;
 
 	private Xml2JsonListener listner = new NoOpListner();
@@ -114,6 +116,18 @@ public class Xml2Json {
 	public void addNamespaceResolver(String prefix, String uri) {
 		namespaceResolvers.put(uri, prefix);
 	}
+
+    public void addNameRenamer(String baseName, String rename) {
+      nameRenamer.put(baseName, rename);
+    }
+
+    public String getRenamedName(String baseName) {
+      String result = nameRenamer.get(baseName);
+      if (result == null) {
+        return baseName;
+      }
+      return result;
+    }
 
 	public void setListner(Xml2JsonListener textFilter) {
 		this.listner = textFilter;
@@ -175,7 +189,7 @@ public class Xml2Json {
 			Node attr = attrs.item(i);
 			String name = attr.getNodeName();
 			String value = attr.getNodeValue();
-			map.put(name, listner.text(value));
+			map.put(getRenamedName(name), listner.text(value));
 		}
 		NodeList childs = element.getChildNodes();
 		nodelist2json(map, childs);
@@ -198,10 +212,10 @@ public class Xml2Json {
 				if (skips.contains(childXPath)) {
 					nodelist2json(map, childElm.getChildNodes());
 				} else if (arrays.contains(childXPath)) {
-					JSONArray obj = (JSONArray) map.get(childElm.getNodeName());
+					JSONArray obj = (JSONArray) map.get(getRenamedName(childElm.getNodeName()));
 					if (obj == null) {
 						obj = new JSONArray();
-						map.put(childElm.getNodeName(), obj);
+						map.put(getRenamedName(childElm.getNodeName()), obj);
 					}
 					JSONArray array = new JSONArray();
 					NodeList childNodes = childElm.getChildNodes();
@@ -218,19 +232,19 @@ public class Xml2Json {
 					boolean isRepeatable = (repeatables.contains(childXPath) || repeatableNames.contains(childName));
 					boolean hasKey = keyPaths.contains(childXPath);
 					if (isRepeatable && hasKey) {
-						JSONObject obj = (JSONObject) map.get(childName);
+						JSONObject obj = (JSONObject) map.get(getRenamedName(childName));
 						if (obj == null) {
 							obj = new JSONObject();
-							map.put(childName, obj);
+							map.put(getRenamedName(childName), obj);
 						}
 						String attrName = (String) pathMaps.get(childXPath);
 						String attrValue = childElm.getAttribute(attrName);
 						obj.put(attrValue, node2json(childElm));
 					} else if (isRepeatable && !hasKey) {
-						JSONArray obj = (JSONArray) map.get(childName);
+						JSONArray obj = (JSONArray) map.get(getRenamedName(childName));
 						if (obj == null) {
 							obj = new JSONArray();
-							map.put(childName, obj);
+							map.put(getRenamedName(childName), obj);
 						}
 						obj.put(node2json(childElm));
 					} else if (hasKey) {
@@ -238,7 +252,7 @@ public class Xml2Json {
 						String attrValue = childElm.getAttribute(attrName);
 						map.put(attrValue, node2json(childElm));
 					} else {
-						map.put(childName, node2json(childElm));
+						map.put(getRenamedName(childName), node2json(childElm));
 					}
 				}
 				break;

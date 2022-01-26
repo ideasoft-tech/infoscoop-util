@@ -1,0 +1,81 @@
+<scorecardHierarchy nodeClass="scorecard" label="Análisis de Rentabilidad">
+    <objectiveNode nodeClass="perspective" name="PerspectivaBase" id="-1" refInstanceId="1254" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Efectividad en el uso de los activos rentables" metricId="1123">
+        <objectiveNode nodeClass="objective" name="" id="3" refInstanceId="1255" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Activos utilizados con efectividad para producir ganancias" metricId="1122">
+            <indicatorNode nodeClass="indicator" name="Indicador" id="4" refInstanceId="1232" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Costo de los bienes vendidos" metricId="1096"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="5" refInstanceId="1233" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Gastos de administracion y ventas" metricId="1097"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="6" refInstanceId="1234" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Intereses pagados" metricId="1098"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="7" refInstanceId="1235" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Impuesto a los ingresos" metricId="1099"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="8" refInstanceId="1236" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Ventas" metricId="1100"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="9" refInstanceId="1237" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Costos totales" metricId="1101"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="10" refInstanceId="1238" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Ingreso operativo neto" metricId="1102"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="11" refInstanceId="1239" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Margen operativo neto" metricId="1103"/>
+        </objectiveNode>
+    </objectiveNode>
+    <objectiveNode nodeClass="perspective" name="" id="1" refInstanceId="1256" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Inversiones en activos de capital de trabajo" metricId="1121">
+        <objectiveNode nodeClass="objective" name="" id="12" refInstanceId="1257" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Capital de trabajo que sostenga las operaciones corrientes" metricId="1120">
+            <indicatorNode nodeClass="indicator" name="Indicador" id="13" refInstanceId="1240" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Efectivo" metricId="1104"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="14" refInstanceId="1241" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Deuda activa" metricId="1105"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="15" refInstanceId="1242" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Inventarios" metricId="1106"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="16" refInstanceId="1243" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Titulos negociables" metricId="1107"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="17" refInstanceId="1244" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Otros activos de capital de trabajo" metricId="1108"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="26" refInstanceId="1251" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Rotacion de activos" metricId="1115"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="27" refInstanceId="1252" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="ROA" metricId="1116"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="28" refInstanceId="1253" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Activos corrientes" metricId="1117"/>
+        </objectiveNode>
+    </objectiveNode>
+    <objectiveNode nodeClass="perspective" name="" id="2" refInstanceId="1258" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Inversiones en activos rentables de largo plazo" metricId="1119">
+        <objectiveNode nodeClass="objective" name="" id="18" refInstanceId="1259" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Realizar inversiones en activos de largo plazo" metricId="1118">
+            <indicatorNode nodeClass="indicator" name="Indicador" id="19" refInstanceId="1245" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Tierra" metricId="1109"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="20" refInstanceId="1246" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Inmuebles" metricId="1110"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="21" refInstanceId="1247" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Maquinaria y equipamiento" metricId="1111"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="22" refInstanceId="1248" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Intangibles" metricId="1112"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="23" refInstanceId="1249" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Activos no corrientes" metricId="1113"/>
+            <indicatorNode nodeClass="indicator" name="Indicador" id="24" refInstanceId="1250" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Activos totales" metricId="1114"/>
+        </objectiveNode>
+    </objectiveNode>
+    <maps name="rootMaps" nodeClass="rootMaps" id="-2" label="Mapas">
+        <strategicMapNode nodeClass="map" name="map" id="36" refInstanceId="1743" refBusinessUnitId="consejo" refOrganizationId="UruPetrol" scorecardId="1231" label="Influencia de Ventas en ROA"/>
+    </maps>
+    <smartViews name="smartsViews" nodeClass="rootSmartViews" id="-3" label="Smart Views">
+        <smartView label="Mapa de DuPont" internal="true" id="32" nodeClass="smartView" name="mapaDuPont">
+            <indicator label="ROA" id="27" refInstanceId="1252" nodeClass="indicator" name="Indicador" scorecardId="1231">
+                <indicator label="Rotacion de activos" id="26" refInstanceId="1251" nodeClass="indicator" name="Indicador" scorecardId="1231">
+                    <indicator label="Activos totales" id="24" refInstanceId="1250" nodeClass="indicator" name="Indicador" scorecardId="1231">
+                        <indicator label="Activos corrientes" id="28" refInstanceId="1253" nodeClass="indicator" name="Indicador" scorecardId="1231">
+                            <indicator label="Efectivo" id="13" refInstanceId="1240" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                            <indicator label="Deuda activa" id="14" refInstanceId="1241" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                            <indicator label="Inventarios" id="15" refInstanceId="1242" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                            <indicator label="Titulos negociables" id="16" refInstanceId="1243" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                            <indicator label="Otros activos de capital de trabajo" id="17" refInstanceId="1244" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                        </indicator>
+                        <indicator label="Activos no corrientes" id="23" refInstanceId="1249" nodeClass="indicator" name="Indicador" scorecardId="1231">
+                            <indicator label="Tierra" id="19" refInstanceId="1245" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                            <indicator label="Inmuebles" id="20" refInstanceId="1246" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                            <indicator label="Maquinaria y equipamiento" id="21" refInstanceId="1247" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                            <indicator label="Intangibles" id="22" refInstanceId="1248" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                        </indicator>
+                    </indicator>
+                    <indicator label="Ventas" id="8" refInstanceId="1236" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                </indicator>
+                <indicator label="Margen operativo neto" id="11" refInstanceId="1239" nodeClass="indicator" name="Indicador" scorecardId="1231">
+                    <indicator label="Ingreso operativo neto" id="10" refInstanceId="1238" nodeClass="indicator" name="Indicador" scorecardId="1231">
+                        <indicator label="Ventas" id="8" refInstanceId="1236" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                        <indicator label="Costos totales" id="9" refInstanceId="1237" nodeClass="indicator" name="Indicador" scorecardId="1231">
+                            <indicator label="Costo de los bienes vendidos" id="4" refInstanceId="1232" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                            <indicator label="Impuesto a los ingresos" id="7" refInstanceId="1235" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                            <indicator label="Intereses pagados" id="6" refInstanceId="1234" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                            <indicator label="Gastos de administracion y ventas" id="5" refInstanceId="1233" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                        </indicator>
+                    </indicator>
+                    <indicator label="Ventas" id="8" refInstanceId="1236" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                </indicator>
+            </indicator>
+        </smartView>
+        <smartView label="Margen Operativo Neto" internal="true" id="35" nodeClass="smartView" name="margenOpNeto">
+            <indicator label="Margen operativo neto" id="11" refInstanceId="1239" nodeClass="indicator" name="Indicador" scorecardId="1231">
+                <indicator label="Ingreso operativo neto" id="10" refInstanceId="1238" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+                <indicator label="Ventas" id="8" refInstanceId="1236" nodeClass="indicator" name="Indicador" scorecardId="1231"/>
+            </indicator>
+        </smartView>
+    </smartViews>
+</scorecardHierarchy>

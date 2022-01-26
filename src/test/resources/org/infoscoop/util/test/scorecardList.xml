@@ -1,0 +1,20 @@
+<scorecards>
+    <scorecard name="corporacion" label="Tablero Corporativo" instanceId="981" type="scorecard">
+        <description>Delinea el contenido y los vínculos de los objetivos e indicadores que se ha planteado la organización, en conformidad con su planificación estratégica. &amp;#10;El diagrama general del presente tablero fue elaborado en noviembre 2007, en el marco de las Jornadas Internas de Planificación Estratégica de UruPetrol. &amp;#10;El informe final, redactado por la Coordinadora, fue aprobado por unanimidad por el Directorio, comenzando a regir a partir de enero 2008 para todas las empresas del grupo UruPetrol, alcanzando de esta forma a todo el personal.  &amp;#10;El período de vigencia del tablero es de cinco años, al término de los cuales la empresa habrá de revisar la estrategia y plantearse nuevos objetivos.</description>
+        <business-unit bussiness-unit="consejo" label="Directorio"/>
+    </scorecard>
+    <scorecard name="dupont" label="Análisis de Rentabilidad" instanceId="1231" type="scorecard">
+        <description>Corresponde al Modelo de Dupont aplicado a Grupo UruPetrol. Se trata de una técnica utilizada para analizar la rentabilidad de la compañía, integrando elementos de declaración de ingresos con elementos de balance.&amp;#10;El modelo permite el análisis del ROA (Return on Assets) a través del comportamiento del margen operativo y la rotación de activos.&amp;#10;Rentabilidad sobre Activos ' Margen de Utilidad Neta x Rotación total de Activos ' Utilidad Operativa Neta después de Impuestos / Ventas X Ventas/Activos totales&amp;#10;La información utilizada para el cálculo de los indicadores es extraida regularmente de la contabilidad. La calidad de los resultados proporcionados por el tablero se ve respaldada por la calidad de la información contable.</description>
+        <business-unit bussiness-unit="consejo" label="Directorio"/>
+    </scorecard>
+    <scorecard name="newScorecard" label="Bodega" instanceId="2539" type="scorecard">
+        <business-unit bussiness-unit="consejo" label="Directorio"/>
+    </scorecard>
+    <scorecard name="PlanCorpUrupetrol" label="Plan Corporación Urupetrol 2010-2014" instanceId="2160" type="businessPlan">
+        <description/>
+        <business-unit bussiness-unit="dirEjecutivaRef" label="Dirección Ejecutiva - Refinación"/>
+    </scorecard>
+    <scorecard name="newScorecard" label="Bodega" instanceId="2548" type="scorecard">
+        <business-unit bussiness-unit="dirEjecutivaRef" label="Dirección Ejecutiva - Refinación"/>
+    </scorecard>
+</scorecards>
