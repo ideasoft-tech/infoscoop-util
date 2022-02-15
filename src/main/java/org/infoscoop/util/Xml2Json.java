@@ -68,11 +68,13 @@ public class Xml2Json {
 
 	private List<String> skips = new ArrayList<String>();
 
+	private List<String> ignores = new ArrayList<String>();
+
 	private List<String> arrays = new ArrayList<String>();
 
 	private Map<String, String> namespaceResolvers = new HashMap<String, String>();
 
-  private Map<String, String> nameRenamer = new HashMap<>();
+	private Map<String, String> nameRenamer = new HashMap<>();
 
 	private String basePath;
 
@@ -101,6 +103,11 @@ public class Xml2Json {
 	public void addSkipRule(String xpath) {
 		skips.add(xpath);
 	}
+
+	public void addIgnoreRule(String xpath) {
+		ignores.add(xpath);
+	}
+
 	public void addRepeatableNames(String name) {
 		repeatableNames.add(name);
 	}
@@ -209,50 +216,52 @@ public class Xml2Json {
 			case Node.ELEMENT_NODE:
 				Element childElm = (Element) node;
 				String childXPath = getXPath(childElm);
-				if (skips.contains(childXPath)) {
-					nodelist2json(map, childElm.getChildNodes());
-				} else if (arrays.contains(childXPath)) {
-					JSONArray obj = (JSONArray) map.get(getRenamedName(childElm.getNodeName()));
-					if (obj == null) {
-						obj = new JSONArray();
-						map.put(getRenamedName(childElm.getNodeName()), obj);
-					}
-					JSONArray array = new JSONArray();
-					NodeList childNodes = childElm.getChildNodes();
-					for (int j = 0; j < childNodes.getLength(); j++) {
-						Node child = childNodes.item(j);
-						//TODO need to support the other node types.
-						if (child.getNodeType() != Node.ELEMENT_NODE)
-							continue;
-						array.put(node2json((Element) child));
-					}
-					obj.put(array);
-				} else {
-					String childName = childElm.getNodeName();
-					boolean isRepeatable = (repeatables.contains(childXPath) || repeatableNames.contains(childName));
-					boolean hasKey = keyPaths.contains(childXPath);
-					if (isRepeatable && hasKey) {
-						JSONObject obj = (JSONObject) map.get(getRenamedName(childName));
-						if (obj == null) {
-							obj = new JSONObject();
-							map.put(getRenamedName(childName), obj);
-						}
-						String attrName = (String) pathMaps.get(childXPath);
-						String attrValue = childElm.getAttribute(attrName);
-						obj.put(attrValue, node2json(childElm));
-					} else if (isRepeatable && !hasKey) {
-						JSONArray obj = (JSONArray) map.get(getRenamedName(childName));
+				if (!ignores.contains(childXPath)) {
+					if (skips.contains(childXPath)) {
+						nodelist2json(map, childElm.getChildNodes());
+					} else if (arrays.contains(childXPath)) {
+						JSONArray obj = (JSONArray) map.get(getRenamedName(childElm.getNodeName()));
 						if (obj == null) {
 							obj = new JSONArray();
-							map.put(getRenamedName(childName), obj);
+							map.put(getRenamedName(childElm.getNodeName()), obj);
 						}
-						obj.put(node2json(childElm));
-					} else if (hasKey) {
-						String attrName = (String) pathMaps.get(childXPath);
-						String attrValue = childElm.getAttribute(attrName);
-						map.put(attrValue, node2json(childElm));
+						JSONArray array = new JSONArray();
+						NodeList childNodes = childElm.getChildNodes();
+						for (int j = 0; j < childNodes.getLength(); j++) {
+							Node child = childNodes.item(j);
+							//TODO need to support the other node types.
+							if (child.getNodeType() != Node.ELEMENT_NODE)
+								continue;
+							array.put(node2json((Element) child));
+						}
+						obj.put(array);
 					} else {
-						map.put(getRenamedName(childName), node2json(childElm));
+						String childName = childElm.getNodeName();
+						boolean isRepeatable = (repeatables.contains(childXPath) || repeatableNames.contains(childName));
+						boolean hasKey = keyPaths.contains(childXPath);
+						if (isRepeatable && hasKey) {
+							JSONObject obj = (JSONObject) map.get(getRenamedName(childName));
+							if (obj == null) {
+								obj = new JSONObject();
+								map.put(getRenamedName(childName), obj);
+							}
+							String attrName = (String) pathMaps.get(childXPath);
+							String attrValue = childElm.getAttribute(attrName);
+							obj.put(attrValue, node2json(childElm));
+						} else if (isRepeatable && !hasKey) {
+							JSONArray obj = (JSONArray) map.get(getRenamedName(childName));
+							if (obj == null) {
+								obj = new JSONArray();
+								map.put(getRenamedName(childName), obj);
+							}
+							obj.put(node2json(childElm));
+						} else if (hasKey) {
+							String attrName = (String) pathMaps.get(childXPath);
+							String attrValue = childElm.getAttribute(attrName);
+							map.put(attrValue, node2json(childElm));
+						} else {
+							map.put(getRenamedName(childName), node2json(childElm));
+						}
 					}
 				}
 				break;

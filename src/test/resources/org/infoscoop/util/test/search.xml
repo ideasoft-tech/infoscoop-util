@@ -1,0 +1,18 @@
+<search>
+    <data name="Indicador" type="indicator" category="execution" id="13" firstLevel="false" state="" instanceId="1240" xid="1">
+        <label>Efectivo</label>
+        <owner>
+            <label>Análisis de Rentabilidad</label>
+            <type>scorecard</type>
+            <id>1231</id>
+        </owner>
+    </data>
+    <data name="Indicador" type="indicator" category="library" id="13" firstLevel="false" state="" xid="2">
+        <label>Efectivo</label>
+        <owner>
+            <label>Análisis de Rentabilidad</label>
+            <type>scorecard</type>
+            <id>10</id>
+        </owner>
+    </data>
+</search>

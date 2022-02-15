@@ -1,0 +1,907 @@
+<atom:feed xmlns:atom="http://www.w3.org/2005/Atom">
+	<atom:title>All Feeds Example</atom:title>
+	<atom:id>id:all</atom:id>
+	<atom:entry>
+		<atom:title>Operación finalizada sobre artefacto Análisis de Rentabilidad</atom:title>
+		<atom:link href="?id=urn:uuid:41e6cb09-0cd9-470c-9f2b-640abc111825" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="biz.ideasoft.o3bpa.SERVICE_RESULT" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.SERVICE_RESULT" />
+		<atom:category label="1231" scheme="urn:o3bpa:instanceId" term="1231" />
+		<atom:updated>2022-01-12T17:30:22-03:00</atom:updated>
+		<atom:id>urn:uuid:41e6cb09-0cd9-470c-9f2b-640abc111825</atom:id>
+		<atom:published>2022-01-12T17:30:22-03:00</atom:published>
+		<atom:content type="html">Operación finalizada sobre artefacto Análisis de Rentabilidad</atom:content>
+		<atom:summary>Cálculo finalizado de tablero Análisis de Rentabilidad</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Obj: Capital de trabajo que sostenga las operaciones corrientes</atom:title>
+		<atom:link href="?id=urn:uuid:35f4c99a-7090-4f8c-9aad-9c2b2f1c7e8e" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_OBJ_demo_1257" scheme="urn:o3bpa:id" term="CALC_OBJ_demo_1257" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="12" scheme="urn:o3bpa:internalId" term="12" />
+		<atom:category label="1257" scheme="urn:o3bpa:instanceId" term="1257" />
+		<atom:category label="objective" scheme="urn:o3bpa:artifactType" term="objective" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="0.0" />
+		<atom:category label="Amarillo" scheme="urn:o3bpa:prevBand" term="yellow" />
+		<atom:category scheme="urn:o3bpa:trend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:target" term="0.0" />
+		<atom:category scheme="urn:o3bpa:value" term="0.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category label="Amarillo" scheme="urn:o3bpa:band" term="yellow" />
+		<atom:category scheme="urn:o3bpa:prevTrend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:updated>2022-01-12T17:30:21-03:00</atom:updated>
+		<atom:id>urn:uuid:35f4c99a-7090-4f8c-9aad-9c2b2f1c7e8e</atom:id>
+		<atom:published>2022-01-12T17:30:21-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Estado final:&lt;/b&gt; Amarillo (&lt;b&gt;anterior:&lt;/b&gt; Amarillo)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. 
+			Meta: 0. Tolerancia: 0 Estado final: Amarillo. (anterior: Amarillo)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Obj: Efectividad en el uso de los activos rentables</atom:title>
+		<atom:link href="?id=urn:uuid:7f95efc0-1781-4914-8e5d-4480facb6ec7" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_OBJ_demo_1254" scheme="urn:o3bpa:id" term="CALC_OBJ_demo_1254" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="-1" scheme="urn:o3bpa:internalId" term="-1" />
+		<atom:category label="1254" scheme="urn:o3bpa:instanceId" term="1254" />
+		<atom:category label="objective" scheme="urn:o3bpa:artifactType" term="objective" />
+		<atom:category scheme="urn:o3bpa:target" term="0.0" />
+		<atom:category label="Azul" scheme="urn:o3bpa:prevBand" term="blue" />
+		<atom:category label="Verde" scheme="urn:o3bpa:band" term="green" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:prevTrend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="-1" />
+		<atom:category scheme="urn:o3bpa:value" term="0.0" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="0.0" />
+		<atom:category scheme="urn:o3bpa:trend" term="0.0" />
+		<atom:updated>2022-01-12T17:30:21-03:00</atom:updated>
+		<atom:id>urn:uuid:7f95efc0-1781-4914-8e5d-4480facb6ec7</atom:id>
+		<atom:published>2022-01-12T17:30:21-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Estado final:&lt;/b&gt; Verde (&lt;b&gt;anterior:&lt;/b&gt; Azul)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. 
+			Meta: 0. Tolerancia: 0 Estado final: Verde. (anterior: Azul)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Obj: Inversiones en activos de capital de trabajo</atom:title>
+		<atom:link href="?id=urn:uuid:923c1fe6-ccd1-44c8-9ffb-6c81c1b415b6" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_OBJ_demo_1256" scheme="urn:o3bpa:id" term="CALC_OBJ_demo_1256" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="1" scheme="urn:o3bpa:internalId" term="1" />
+		<atom:category label="1256" scheme="urn:o3bpa:instanceId" term="1256" />
+		<atom:category label="objective" scheme="urn:o3bpa:artifactType" term="objective" />
+		<atom:category scheme="urn:o3bpa:prevTrend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="0.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:value" term="0.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:trend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:target" term="0.0" />
+		<atom:category label="Amarillo" scheme="urn:o3bpa:prevBand" term="yellow" />
+		<atom:category label="Amarillo" scheme="urn:o3bpa:band" term="yellow" />
+		<atom:updated>2022-01-12T17:30:21-03:00</atom:updated>
+		<atom:id>urn:uuid:923c1fe6-ccd1-44c8-9ffb-6c81c1b415b6</atom:id>
+		<atom:published>2022-01-12T17:30:21-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Estado final:&lt;/b&gt; Amarillo (&lt;b&gt;anterior:&lt;/b&gt; Amarillo)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. 
+			Meta: 0. Tolerancia: 0 Estado final: Amarillo. (anterior: Amarillo)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: ROA, Valor: 9,729</atom:title>
+		<atom:link href="?id=urn:uuid:6bc99f3f-88a4-42c5-b47c-96133920ce09" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1252" scheme="urn:o3bpa:id" term="CALC_IND_demo_1252" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="27" scheme="urn:o3bpa:internalId" term="27" />
+		<atom:category label="1252" scheme="urn:o3bpa:instanceId" term="1252" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="8.910920368570542" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:prevTrend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:target" term="26.35" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="5.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:band" term="red" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:value" term="9.729060915684586" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:prevBand" term="red" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:updated>2022-01-12T17:30:20-03:00</atom:updated>
+		<atom:id>urn:uuid:6bc99f3f-88a4-42c5-b47c-96133920ce09</atom:id>
+		<atom:published>2022-01-12T17:30:20-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Valor anterior:&lt;/b&gt; 8,911 &lt;b&gt;Estado final:&lt;/b&gt; Rojo (&lt;b&gt;anterior:&lt;/b&gt; Rojo) &lt;b&gt;Meta:&lt;/b&gt; 26,35. &lt;b&gt;Tolerancia:&lt;/b&gt; 5 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Positiva)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. Valor anterior: 8,911
+			Meta: 26,35. Tolerancia: 5 Estado final: Rojo. (anterior: Rojo)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Positiva)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Obj: Inversiones en activos rentables de largo plazo</atom:title>
+		<atom:link href="?id=urn:uuid:0c4493aa-4c9c-4513-8557-e05ebe59b172" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_OBJ_demo_1258" scheme="urn:o3bpa:id" term="CALC_OBJ_demo_1258" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="2" scheme="urn:o3bpa:internalId" term="2" />
+		<atom:category label="1258" scheme="urn:o3bpa:instanceId" term="1258" />
+		<atom:category label="objective" scheme="urn:o3bpa:artifactType" term="objective" />
+		<atom:category scheme="urn:o3bpa:trend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category label="Verde" scheme="urn:o3bpa:band" term="green" />
+		<atom:category scheme="urn:o3bpa:target" term="0.0" />
+		<atom:category label="Verde" scheme="urn:o3bpa:prevBand" term="green" />
+		<atom:category scheme="urn:o3bpa:value" term="0.0" />
+		<atom:category scheme="urn:o3bpa:prevTrend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="0.0" />
+		<atom:updated>2022-01-12T17:30:20-03:00</atom:updated>
+		<atom:id>urn:uuid:0c4493aa-4c9c-4513-8557-e05ebe59b172</atom:id>
+		<atom:published>2022-01-12T17:30:20-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Estado final:&lt;/b&gt; Verde (&lt;b&gt;anterior:&lt;/b&gt; Verde)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. 
+			Meta: 0. Tolerancia: 0 Estado final: Verde. (anterior: Verde)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Obj: Activos utilizados con efectividad para producir ganancias</atom:title>
+		<atom:link href="?id=urn:uuid:0af5eebc-6804-4dd5-8add-6bb3fa26412a" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_OBJ_demo_1255" scheme="urn:o3bpa:id" term="CALC_OBJ_demo_1255" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="3" scheme="urn:o3bpa:internalId" term="3" />
+		<atom:category label="1255" scheme="urn:o3bpa:instanceId" term="1255" />
+		<atom:category label="objective" scheme="urn:o3bpa:artifactType" term="objective" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="-1" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="0.0" />
+		<atom:category scheme="urn:o3bpa:target" term="0.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:trend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:prevTrend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category scheme="urn:o3bpa:value" term="0.0" />
+		<atom:category label="Verde" scheme="urn:o3bpa:band" term="green" />
+		<atom:category label="Azul" scheme="urn:o3bpa:prevBand" term="blue" />
+		<atom:updated>2022-01-12T17:30:20-03:00</atom:updated>
+		<atom:id>urn:uuid:0af5eebc-6804-4dd5-8add-6bb3fa26412a</atom:id>
+		<atom:published>2022-01-12T17:30:20-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Estado final:&lt;/b&gt; Verde (&lt;b&gt;anterior:&lt;/b&gt; Azul)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. 
+			Meta: 0. Tolerancia: 0 Estado final: Verde. (anterior: Azul)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: Rotacion de activos, Valor: 17,182</atom:title>
+		<atom:link href="?id=urn:uuid:86a24350-877b-4d4f-b2dd-14adb354b4a6" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1251" scheme="urn:o3bpa:id" term="CALC_IND_demo_1251" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="26" scheme="urn:o3bpa:internalId" term="26" />
+		<atom:category label="1251" scheme="urn:o3bpa:instanceId" term="1251" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:target" term="51.56" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:band" term="red" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:prevTrend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="5.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:prevBand" term="red" />
+		<atom:category scheme="urn:o3bpa:value" term="17.181820023103242" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="16.771256685080143" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:updated>2022-01-12T17:30:19-03:00</atom:updated>
+		<atom:id>urn:uuid:86a24350-877b-4d4f-b2dd-14adb354b4a6</atom:id>
+		<atom:published>2022-01-12T17:30:19-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Valor anterior:&lt;/b&gt; 16,771 &lt;b&gt;Estado final:&lt;/b&gt; Rojo (&lt;b&gt;anterior:&lt;/b&gt; Rojo) &lt;b&gt;Meta:&lt;/b&gt; 51,56. &lt;b&gt;Tolerancia:&lt;/b&gt; 5 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Positiva)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. Valor anterior: 16,771
+			Meta: 51,56. Tolerancia: 5 Estado final: Rojo. (anterior: Rojo)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Positiva)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Obj: Realizar inversiones en activos de largo plazo</atom:title>
+		<atom:link href="?id=urn:uuid:5b3069f2-f3e6-4d15-8467-25504831ebff" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_OBJ_demo_1259" scheme="urn:o3bpa:id" term="CALC_OBJ_demo_1259" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="18" scheme="urn:o3bpa:internalId" term="18" />
+		<atom:category label="1259" scheme="urn:o3bpa:instanceId" term="1259" />
+		<atom:category label="objective" scheme="urn:o3bpa:artifactType" term="objective" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="0.0" />
+		<atom:category label="Verde" scheme="urn:o3bpa:prevBand" term="green" />
+		<atom:category scheme="urn:o3bpa:target" term="0.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category label="Verde" scheme="urn:o3bpa:band" term="green" />
+		<atom:category scheme="urn:o3bpa:trend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:value" term="0.0" />
+		<atom:category scheme="urn:o3bpa:prevTrend" term="0.0" />
+		<atom:updated>2022-01-12T17:30:19-03:00</atom:updated>
+		<atom:id>urn:uuid:5b3069f2-f3e6-4d15-8467-25504831ebff</atom:id>
+		<atom:published>2022-01-12T17:30:19-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Estado final:&lt;/b&gt; Verde (&lt;b&gt;anterior:&lt;/b&gt; Verde)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. 
+			Meta: 0. Tolerancia: 0 Estado final: Verde. (anterior: Verde)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: Activos totales, Valor: 266.118,49</atom:title>
+		<atom:link href="?id=urn:uuid:3038d31a-02f2-483b-bf72-e07270d247d5" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1250" scheme="urn:o3bpa:id" term="CALC_IND_demo_1250" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="24" scheme="urn:o3bpa:internalId" term="24" />
+		<atom:category label="1250" scheme="urn:o3bpa:instanceId" term="1250" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:target" term="249006.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:prevTrend" term="1.0" />
+		<atom:category label="Verde" scheme="urn:o3bpa:prevBand" term="green" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="5.0" />
+		<atom:category scheme="urn:o3bpa:value" term="266118.49" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category label="Verde" scheme="urn:o3bpa:band" term="green" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="261393.65000000002" />
+		<atom:updated>2022-01-12T17:30:18-03:00</atom:updated>
+		<atom:id>urn:uuid:3038d31a-02f2-483b-bf72-e07270d247d5</atom:id>
+		<atom:published>2022-01-12T17:30:18-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Valor anterior:&lt;/b&gt; 261.393,65 &lt;b&gt;Estado final:&lt;/b&gt; Verde (&lt;b&gt;anterior:&lt;/b&gt; Verde) &lt;b&gt;Meta:&lt;/b&gt; 249.006. &lt;b&gt;Tolerancia:&lt;/b&gt; 5 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Positiva)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. Valor anterior: 261.393,65
+			Meta: 249.006. Tolerancia: 5 Estado final: Verde. (anterior: Verde)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Positiva)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: Margen operativo neto, Valor: 56,624</atom:title>
+		<atom:link href="?id=urn:uuid:f70021b3-f1c0-40cc-b056-67252bbd86d0" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1239" scheme="urn:o3bpa:id" term="CALC_IND_demo_1239" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="11" scheme="urn:o3bpa:internalId" term="11" />
+		<atom:category label="1239" scheme="urn:o3bpa:instanceId" term="1239" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category label="Azul" scheme="urn:o3bpa:prevBand" term="blue" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="5.0" />
+		<atom:category scheme="urn:o3bpa:value" term="56.62415799142681" />
+		<atom:category label="Azul" scheme="urn:o3bpa:band" term="blue" />
+		<atom:category scheme="urn:o3bpa:target" term="51.11" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="53.13209699126349" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:prevTrend" term="1.0" />
+		<atom:updated>2022-01-12T17:30:18-03:00</atom:updated>
+		<atom:id>urn:uuid:f70021b3-f1c0-40cc-b056-67252bbd86d0</atom:id>
+		<atom:published>2022-01-12T17:30:18-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Valor anterior:&lt;/b&gt; 53,132 &lt;b&gt;Estado final:&lt;/b&gt; Azul (&lt;b&gt;anterior:&lt;/b&gt; Azul) &lt;b&gt;Meta:&lt;/b&gt; 51,11. &lt;b&gt;Tolerancia:&lt;/b&gt; 5 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Positiva)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. Valor anterior: 53,132
+			Meta: 51,11. Tolerancia: 5 Estado final: Azul. (anterior: Azul)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Positiva)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: Activos corrientes, Valor: 167.768,76</atom:title>
+		<atom:link href="?id=urn:uuid:391deaa6-f1f0-47a8-8dac-24d4295b82d4" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1253" scheme="urn:o3bpa:id" term="CALC_IND_demo_1253" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="28" scheme="urn:o3bpa:internalId" term="28" />
+		<atom:category label="1253" scheme="urn:o3bpa:instanceId" term="1253" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category label="Tendencia Negativa" scheme="urn:o3bpa:prevTrend" term="-1.0" />
+		<atom:category label="Tendencia Negativa" scheme="urn:o3bpa:trend" term="-1.0" />
+		<atom:category scheme="urn:o3bpa:value" term="167768.76" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category label="Amarillo" scheme="urn:o3bpa:prevBand" term="yellow" />
+		<atom:category label="Amarillo" scheme="urn:o3bpa:band" term="yellow" />
+		<atom:category scheme="urn:o3bpa:target" term="161724.0" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="163655.5" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="5.0" />
+		<atom:updated>2022-01-12T17:30:17-03:00</atom:updated>
+		<atom:id>urn:uuid:391deaa6-f1f0-47a8-8dac-24d4295b82d4</atom:id>
+		<atom:published>2022-01-12T17:30:17-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Valor anterior:&lt;/b&gt; 163.655,5 &lt;b&gt;Estado final:&lt;/b&gt; Amarillo (&lt;b&gt;anterior:&lt;/b&gt; Amarillo) &lt;b&gt;Meta:&lt;/b&gt; 161.724. &lt;b&gt;Tolerancia:&lt;/b&gt; 5 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Negativa (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Negativa)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. Valor anterior: 163.655,5
+			Meta: 161.724. Tolerancia: 5 Estado final: Amarillo. (anterior: Amarillo)
+			Tendencia: Tendencia Negativa.  (anterior: Tendencia Negativa)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: Ingreso operativo neto, Valor: 25.890,83</atom:title>
+		<atom:link href="?id=urn:uuid:314164ff-bc78-49d0-a3e0-748cb48481ed" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1238" scheme="urn:o3bpa:id" term="CALC_IND_demo_1238" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="10" scheme="urn:o3bpa:internalId" term="10" />
+		<atom:category label="1238" scheme="urn:o3bpa:instanceId" term="1238" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:target" term="23000.0" />
+		<atom:category label="Azul" scheme="urn:o3bpa:band" term="blue" />
+		<atom:category label="Azul" scheme="urn:o3bpa:prevBand" term="blue" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="5.0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="23292.58" />
+		<atom:category scheme="urn:o3bpa:value" term="25890.829999999998" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:prevTrend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:updated>2022-01-12T17:30:17-03:00</atom:updated>
+		<atom:id>urn:uuid:314164ff-bc78-49d0-a3e0-748cb48481ed</atom:id>
+		<atom:published>2022-01-12T17:30:17-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Valor anterior:&lt;/b&gt; 23.292,58 &lt;b&gt;Estado final:&lt;/b&gt; Azul (&lt;b&gt;anterior:&lt;/b&gt; Azul) &lt;b&gt;Meta:&lt;/b&gt; 23.000. &lt;b&gt;Tolerancia:&lt;/b&gt; 5 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Positiva)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. Valor anterior: 23.292,58
+			Meta: 23.000. Tolerancia: 5 Estado final: Azul. (anterior: Azul)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Positiva)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: Activos no corrientes, Valor: 98.349,73</atom:title>
+		<atom:link href="?id=urn:uuid:2caae642-40aa-48f3-8bbc-441566e617e1" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1249" scheme="urn:o3bpa:id" term="CALC_IND_demo_1249" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="23" scheme="urn:o3bpa:internalId" term="23" />
+		<atom:category label="1249" scheme="urn:o3bpa:instanceId" term="1249" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:target" term="87282.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="5.0" />
+		<atom:category label="Azul" scheme="urn:o3bpa:band" term="blue" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="97738.15000000001" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:prevTrend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="1" />
+		<atom:category scheme="urn:o3bpa:value" term="98349.73" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category label="Verde" scheme="urn:o3bpa:prevBand" term="green" />
+		<atom:updated>2022-01-12T17:30:15-03:00</atom:updated>
+		<atom:id>urn:uuid:2caae642-40aa-48f3-8bbc-441566e617e1</atom:id>
+		<atom:published>2022-01-12T17:30:15-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Valor anterior:&lt;/b&gt; 97.738,15 &lt;b&gt;Estado final:&lt;/b&gt; Azul (&lt;b&gt;anterior:&lt;/b&gt; Verde) &lt;b&gt;Meta:&lt;/b&gt; 87.282. &lt;b&gt;Tolerancia:&lt;/b&gt; 5 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Positiva)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. Valor anterior: 97.738,15
+			Meta: 87.282. Tolerancia: 5 Estado final: Azul. (anterior: Verde)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Positiva)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: Costos totales, Valor: 19.833,17</atom:title>
+		<atom:link href="?id=urn:uuid:10be5591-bafe-4bc3-9b18-3d695edf0cc5" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1237" scheme="urn:o3bpa:id" term="CALC_IND_demo_1237" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="9" scheme="urn:o3bpa:internalId" term="9" />
+		<atom:category label="1237" scheme="urn:o3bpa:instanceId" term="1237" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="1" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:target" term="22000.0" />
+		<atom:category label="Amarillo" scheme="urn:o3bpa:prevBand" term="yellow" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="20546.42" />
+		<atom:category label="Verde" scheme="urn:o3bpa:band" term="green" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="5.0" />
+		<atom:category scheme="urn:o3bpa:value" term="19833.170000000002" />
+		<atom:category label="Tendencia Negativa" scheme="urn:o3bpa:prevTrend" term="-1.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="1" />
+		<atom:updated>2022-01-12T17:30:13-03:00</atom:updated>
+		<atom:id>urn:uuid:10be5591-bafe-4bc3-9b18-3d695edf0cc5</atom:id>
+		<atom:published>2022-01-12T17:30:13-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; ene/2009 &lt;b&gt;y&lt;/b&gt; jul/2010 &lt;b&gt;Valor anterior:&lt;/b&gt; 20.546,42 &lt;b&gt;Estado final:&lt;/b&gt; Verde (&lt;b&gt;anterior:&lt;/b&gt; Amarillo) &lt;b&gt;Meta:&lt;/b&gt; 22.000. &lt;b&gt;Tolerancia:&lt;/b&gt; 5 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Negativa)</atom:content>
+		<atom:summary>Entre ene/2009 y jul/2010. Valor anterior: 20.546,42
+			Meta: 22.000. Tolerancia: 5 Estado final: Verde. (anterior: Amarillo)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Negativa)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: , Valor: 100</atom:title>
+		<atom:link href="?id=urn:uuid:58255ff3-3fc8-46e8-9378-4b2a8167bc38" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1771" scheme="urn:o3bpa:id" term="CALC_IND_demo_1771" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="0-performance" scheme="urn:o3bpa:internalId" term="0-performance" />
+		<atom:category label="1771" scheme="urn:o3bpa:instanceId" term="1771" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:target" term="100.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:prevTrend" term="1.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:prevBand" term="red" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:band" term="red" />
+		<atom:category scheme="urn:o3bpa:value" term="100.0" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="90.0" />
+		<atom:updated>2022-01-12T17:30:12-03:00</atom:updated>
+		<atom:id>urn:uuid:58255ff3-3fc8-46e8-9378-4b2a8167bc38</atom:id>
+		<atom:published>2022-01-12T17:30:12-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; 01/03/2008 &lt;b&gt;y&lt;/b&gt; 01/02/2009 &lt;b&gt;Valor anterior:&lt;/b&gt; 90 &lt;b&gt;Estado final:&lt;/b&gt; Rojo (&lt;b&gt;anterior:&lt;/b&gt; Rojo) &lt;b&gt;Meta:&lt;/b&gt; 100. &lt;b&gt;Tolerancia:&lt;/b&gt; 0 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Positiva)</atom:content>
+		<atom:summary>Entre 01/03/2008 y 01/02/2009. Valor anterior: 90
+			Meta: 100. Tolerancia: 0 Estado final: Rojo. (anterior: Rojo)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Positiva)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: , Valor: 1</atom:title>
+		<atom:link href="?id=urn:uuid:32b11b3d-5434-4189-aea8-8cfe8e3c3ebe" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1773" scheme="urn:o3bpa:id" term="CALC_IND_demo_1773" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="1-result" scheme="urn:o3bpa:internalId" term="1-result" />
+		<atom:category label="1773" scheme="urn:o3bpa:instanceId" term="1773" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:prevBand" term="null" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:prevTrend" term="0.0" />
+		<atom:category label="Tendencia Estable" scheme="urn:o3bpa:trend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:target" term="1.0" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="0.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:band" term="red" />
+		<atom:category scheme="urn:o3bpa:value" term="1.0" />
+		<atom:updated>2022-01-12T17:30:12-03:00</atom:updated>
+		<atom:id>urn:uuid:32b11b3d-5434-4189-aea8-8cfe8e3c3ebe</atom:id>
+		<atom:published>2022-01-12T17:30:12-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; abr/2010 &lt;b&gt;y&lt;/b&gt; abr/2010 &lt;b&gt;Estado final:&lt;/b&gt; Rojo &lt;b&gt;Meta:&lt;/b&gt; 1. &lt;b&gt;Tolerancia:&lt;/b&gt; 0 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Estable</atom:content>
+		<atom:summary>Entre abr/2010 y abr/2010. 
+			Meta: 1. Tolerancia: 0 Estado final: Rojo. 
+			Tendencia: Tendencia Estable.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: , Valor: 100</atom:title>
+		<atom:link href="?id=urn:uuid:76f6c9cf-dc94-4dfd-b7f8-9945a08cb262" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1774" scheme="urn:o3bpa:id" term="CALC_IND_demo_1774" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="0-performance" scheme="urn:o3bpa:internalId" term="0-performance" />
+		<atom:category label="1774" scheme="urn:o3bpa:instanceId" term="1774" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:value" term="100.0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:target" term="100.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:band" term="red" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:prevTrend" term="1.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:prevBand" term="red" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="80.0" />
+		<atom:updated>2022-01-12T17:30:12-03:00</atom:updated>
+		<atom:id>urn:uuid:76f6c9cf-dc94-4dfd-b7f8-9945a08cb262</atom:id>
+		<atom:published>2022-01-12T17:30:12-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; 01/01/2010 &lt;b&gt;y&lt;/b&gt; 01/04/2010 &lt;b&gt;Valor anterior:&lt;/b&gt; 80 &lt;b&gt;Estado final:&lt;/b&gt; Rojo (&lt;b&gt;anterior:&lt;/b&gt; Rojo) &lt;b&gt;Meta:&lt;/b&gt; 100. &lt;b&gt;Tolerancia:&lt;/b&gt; 0 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Positiva)</atom:content>
+		<atom:summary>Entre 01/01/2010 y 01/04/2010. Valor anterior: 80
+			Meta: 100. Tolerancia: 0 Estado final: Rojo. (anterior: Rojo)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Positiva)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: , Valor: 90</atom:title>
+		<atom:link href="?id=urn:uuid:6efd655e-46f3-4002-89d8-4a99fa063ecd" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1762" scheme="urn:o3bpa:id" term="CALC_IND_demo_1762" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="0-performance" scheme="urn:o3bpa:internalId" term="0-performance" />
+		<atom:category label="1762" scheme="urn:o3bpa:instanceId" term="1762" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:target" term="100.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:band" term="red" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="1" />
+		<atom:category label="Tendencia Negativa" scheme="urn:o3bpa:prevTrend" term="-1.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:prevBand" term="red" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="89.0" />
+		<atom:category scheme="urn:o3bpa:value" term="90.0" />
+		<atom:updated>2022-01-12T17:30:11-03:00</atom:updated>
+		<atom:id>urn:uuid:6efd655e-46f3-4002-89d8-4a99fa063ecd</atom:id>
+		<atom:published>2022-01-12T17:30:11-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; 01/10/2010 &lt;b&gt;y&lt;/b&gt; 01/05/2011 &lt;b&gt;Valor anterior:&lt;/b&gt; 89 &lt;b&gt;Estado final:&lt;/b&gt; Rojo (&lt;b&gt;anterior:&lt;/b&gt; Rojo) &lt;b&gt;Meta:&lt;/b&gt; 100. &lt;b&gt;Tolerancia:&lt;/b&gt; 0 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Negativa)</atom:content>
+		<atom:summary>Entre 01/10/2010 y 01/05/2011. Valor anterior: 89
+			Meta: 100. Tolerancia: 0 Estado final: Rojo. (anterior: Rojo)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Negativa)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: , Valor: 3.211</atom:title>
+		<atom:link href="?id=urn:uuid:5479cf77-8a81-4216-821a-ec24ba8be583" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1764" scheme="urn:o3bpa:id" term="CALC_IND_demo_1764" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="1-result" scheme="urn:o3bpa:internalId" term="1-result" />
+		<atom:category label="1764" scheme="urn:o3bpa:instanceId" term="1764" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:value" term="3211.0" />
+		<atom:category scheme="urn:o3bpa:target" term="2000.0" />
+		<atom:category label="Tendencia Negativa" scheme="urn:o3bpa:prevTrend" term="-1.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:band" term="red" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="1" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="1874.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:prevBand" term="red" />
+		<atom:updated>2022-01-12T17:30:11-03:00</atom:updated>
+		<atom:id>urn:uuid:5479cf77-8a81-4216-821a-ec24ba8be583</atom:id>
+		<atom:published>2022-01-12T17:30:11-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; mar/2009 &lt;b&gt;y&lt;/b&gt; jul/2009 &lt;b&gt;Valor anterior:&lt;/b&gt; 1.874 &lt;b&gt;Estado final:&lt;/b&gt; Rojo (&lt;b&gt;anterior:&lt;/b&gt; Rojo) &lt;b&gt;Meta:&lt;/b&gt; 2.000. &lt;b&gt;Tolerancia:&lt;/b&gt; 0 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Negativa)</atom:content>
+		<atom:summary>Entre mar/2009 y jul/2009. Valor anterior: 1.874
+			Meta: 2.000. Tolerancia: 0 Estado final: Rojo. (anterior: Rojo)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Negativa)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: , Valor: 100</atom:title>
+		<atom:link href="?id=urn:uuid:0d9b24ae-42ce-43e8-bf28-facada03ed03" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1765" scheme="urn:o3bpa:id" term="CALC_IND_demo_1765" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="0-performance" scheme="urn:o3bpa:internalId" term="0-performance" />
+		<atom:category label="1765" scheme="urn:o3bpa:instanceId" term="1765" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="100.0" />
+		<atom:category label="Tendencia Estable" scheme="urn:o3bpa:prevTrend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:band" term="red" />
+		<atom:category scheme="urn:o3bpa:target" term="100.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:value" term="100.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:prevBand" term="red" />
+		<atom:category label="Tendencia Estable" scheme="urn:o3bpa:trend" term="0.0" />
+		<atom:updated>2022-01-12T17:30:11-03:00</atom:updated>
+		<atom:id>urn:uuid:0d9b24ae-42ce-43e8-bf28-facada03ed03</atom:id>
+		<atom:published>2022-01-12T17:30:11-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; 02/02/2009 &lt;b&gt;y&lt;/b&gt; 27/02/2009 &lt;b&gt;Valor anterior:&lt;/b&gt; 100 &lt;b&gt;Estado final:&lt;/b&gt; Rojo (&lt;b&gt;anterior:&lt;/b&gt; Rojo) &lt;b&gt;Meta:&lt;/b&gt; 100. &lt;b&gt;Tolerancia:&lt;/b&gt; 0 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Estable (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Estable)</atom:content>
+		<atom:summary>Entre 02/02/2009 y 27/02/2009. Valor anterior: 100
+			Meta: 100. Tolerancia: 0 Estado final: Rojo. (anterior: Rojo)
+			Tendencia: Tendencia Estable.  (anterior: Tendencia Estable)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: , Valor: 857</atom:title>
+		<atom:link href="?id=urn:uuid:74d2e0be-5bff-4fd1-b11e-be432dfa150a" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1770" scheme="urn:o3bpa:id" term="CALC_IND_demo_1770" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="1-result" scheme="urn:o3bpa:internalId" term="1-result" />
+		<atom:category label="1770" scheme="urn:o3bpa:instanceId" term="1770" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:prevTrend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="567.0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:band" term="red" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:target" term="500.0" />
+		<atom:category scheme="urn:o3bpa:value" term="857.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:prevBand" term="red" />
+		<atom:updated>2022-01-12T17:30:11-03:00</atom:updated>
+		<atom:id>urn:uuid:74d2e0be-5bff-4fd1-b11e-be432dfa150a</atom:id>
+		<atom:published>2022-01-12T17:30:11-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; mar/2009 &lt;b&gt;y&lt;/b&gt; dic/2009 &lt;b&gt;Valor anterior:&lt;/b&gt; 567 &lt;b&gt;Estado final:&lt;/b&gt; Rojo (&lt;b&gt;anterior:&lt;/b&gt; Rojo) &lt;b&gt;Meta:&lt;/b&gt; 500. &lt;b&gt;Tolerancia:&lt;/b&gt; 0 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Positiva)</atom:content>
+		<atom:summary>Entre mar/2009 y dic/2009. Valor anterior: 567
+			Meta: 500. Tolerancia: 0 Estado final: Rojo. (anterior: Rojo)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Positiva)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Intangibles</atom:title>
+		<atom:link href="?id=urn:uuid:d3da0aff-8c08-4f5c-99dc-d2016b012027" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1248" scheme="urn:o3bpa:id" term="CALC_IND_demo_1248" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="22" scheme="urn:o3bpa:internalId" term="22" />
+		<atom:category label="1248" scheme="urn:o3bpa:instanceId" term="1248" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:10-03:00</atom:updated>
+		<atom:id>urn:uuid:d3da0aff-8c08-4f5c-99dc-d2016b012027</atom:id>
+		<atom:published>2022-01-12T17:30:10-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Intangibles. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Intangibles. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: , Valor: 0</atom:title>
+		<atom:link href="?id=urn:uuid:63186d3f-35d8-410e-879c-abc79faec7da" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1758" scheme="urn:o3bpa:id" term="CALC_IND_demo_1758" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="1-result" scheme="urn:o3bpa:internalId" term="1-result" />
+		<atom:category label="1758" scheme="urn:o3bpa:instanceId" term="1758" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="0.0" />
+		<atom:category scheme="urn:o3bpa:value" term="0.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:band" term="red" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category label="Tendencia Estable" scheme="urn:o3bpa:trend" term="0.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category scheme="urn:o3bpa:prevBand" term="null" />
+		<atom:category scheme="urn:o3bpa:target" term="1.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:prevTrend" term="0.0" />
+		<atom:updated>2022-01-12T17:30:10-03:00</atom:updated>
+		<atom:id>urn:uuid:63186d3f-35d8-410e-879c-abc79faec7da</atom:id>
+		<atom:published>2022-01-12T17:30:10-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; jun/2010 &lt;b&gt;y&lt;/b&gt; jun/2010 &lt;b&gt;Estado final:&lt;/b&gt; Rojo &lt;b&gt;Meta:&lt;/b&gt; 1. &lt;b&gt;Tolerancia:&lt;/b&gt; 0 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Estable</atom:content>
+		<atom:summary>Entre jun/2010 y jun/2010. 
+			Meta: 1. Tolerancia: 0 Estado final: Rojo. 
+			Tendencia: Tendencia Estable.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: , Valor: 100</atom:title>
+		<atom:link href="?id=urn:uuid:a3eeac56-806f-4e51-84fe-083c137bb593" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1759" scheme="urn:o3bpa:id" term="CALC_IND_demo_1759" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="0-performance" scheme="urn:o3bpa:internalId" term="0-performance" />
+		<atom:category label="1759" scheme="urn:o3bpa:instanceId" term="1759" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="75.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:prevBand" term="red" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:value" term="100.0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:prevTrend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category scheme="urn:o3bpa:target" term="100.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:band" term="red" />
+		<atom:updated>2022-01-12T17:30:10-03:00</atom:updated>
+		<atom:id>urn:uuid:a3eeac56-806f-4e51-84fe-083c137bb593</atom:id>
+		<atom:published>2022-01-12T17:30:10-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; 07/06/2010 &lt;b&gt;y&lt;/b&gt; 18/06/2010 &lt;b&gt;Valor anterior:&lt;/b&gt; 75 &lt;b&gt;Estado final:&lt;/b&gt; Rojo (&lt;b&gt;anterior:&lt;/b&gt; Rojo) &lt;b&gt;Meta:&lt;/b&gt; 100. &lt;b&gt;Tolerancia:&lt;/b&gt; 0 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Positiva)</atom:content>
+		<atom:summary>Entre 07/06/2010 y 18/06/2010. Valor anterior: 75
+			Meta: 100. Tolerancia: 0 Estado final: Rojo. (anterior: Rojo)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Positiva)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Cálculo Realizado, Ind: , Valor: 100</atom:title>
+		<atom:link href="?id=urn:uuid:b4fae5f1-4832-4cf8-8942-7c2c08ae76ef" rel="edit" type="application/atom+xml" />
+		<atom:category label="INFO" scheme="urn:o3bpa:eventType" term="INFO" />
+		<atom:category label="CALC_IND_demo_1761" scheme="urn:o3bpa:id" term="CALC_IND_demo_1761" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_DONE" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_DONE" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="1-result" scheme="urn:o3bpa:internalId" term="1-result" />
+		<atom:category label="1761" scheme="urn:o3bpa:instanceId" term="1761" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:prevTrend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:bandVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:value" term="100.0" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:band" term="red" />
+		<atom:category label="Rojo" scheme="urn:o3bpa:prevBand" term="red" />
+		<atom:category scheme="urn:o3bpa:prevValue" term="90.0" />
+		<atom:category scheme="urn:o3bpa:tolerance" term="0.0" />
+		<atom:category label="Tendencia Positiva" scheme="urn:o3bpa:trend" term="1.0" />
+		<atom:category scheme="urn:o3bpa:trendVariation" term="0" />
+		<atom:category scheme="urn:o3bpa:target" term="100.0" />
+		<atom:updated>2022-01-12T17:30:10-03:00</atom:updated>
+		<atom:id>urn:uuid:b4fae5f1-4832-4cf8-8942-7c2c08ae76ef</atom:id>
+		<atom:published>2022-01-12T17:30:10-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Entre&lt;/b&gt; oct/2010 &lt;b&gt;y&lt;/b&gt; dic/2010 &lt;b&gt;Valor anterior:&lt;/b&gt; 90 &lt;b&gt;Estado final:&lt;/b&gt; Rojo (&lt;b&gt;anterior:&lt;/b&gt; Rojo) &lt;b&gt;Meta:&lt;/b&gt; 100. &lt;b&gt;Tolerancia:&lt;/b&gt; 0 &lt;b&gt;Tendencia:&lt;/b&gt; Tendencia Positiva (&lt;b&gt;anterior:&lt;/b&gt; Tendencia Positiva)</atom:content>
+		<atom:summary>Entre oct/2010 y dic/2010. Valor anterior: 90
+			Meta: 100. Tolerancia: 0 Estado final: Rojo. (anterior: Rojo)
+			Tendencia: Tendencia Positiva.  (anterior: Tendencia Positiva)</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Inmuebles</atom:title>
+		<atom:link href="?id=urn:uuid:db0e4d50-942c-4f4e-9ee9-36e1a345e77c" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1246" scheme="urn:o3bpa:id" term="CALC_IND_demo_1246" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="20" scheme="urn:o3bpa:internalId" term="20" />
+		<atom:category label="1246" scheme="urn:o3bpa:instanceId" term="1246" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:09-03:00</atom:updated>
+		<atom:id>urn:uuid:db0e4d50-942c-4f4e-9ee9-36e1a345e77c</atom:id>
+		<atom:published>2022-01-12T17:30:09-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Inmuebles. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Inmuebles. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Maquinaria y equipamiento</atom:title>
+		<atom:link href="?id=urn:uuid:a92b176e-7b2b-4690-8542-4e153d8a4989" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1247" scheme="urn:o3bpa:id" term="CALC_IND_demo_1247" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="21" scheme="urn:o3bpa:internalId" term="21" />
+		<atom:category label="1247" scheme="urn:o3bpa:instanceId" term="1247" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:09-03:00</atom:updated>
+		<atom:id>urn:uuid:a92b176e-7b2b-4690-8542-4e153d8a4989</atom:id>
+		<atom:published>2022-01-12T17:30:09-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Maquinaria y equipamiento. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Maquinaria y equipamiento. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Titulos negociables</atom:title>
+		<atom:link href="?id=urn:uuid:e06ac578-7eb8-4514-a253-3bd5e3d13d72" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1243" scheme="urn:o3bpa:id" term="CALC_IND_demo_1243" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="16" scheme="urn:o3bpa:internalId" term="16" />
+		<atom:category label="1243" scheme="urn:o3bpa:instanceId" term="1243" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:08-03:00</atom:updated>
+		<atom:id>urn:uuid:e06ac578-7eb8-4514-a253-3bd5e3d13d72</atom:id>
+		<atom:published>2022-01-12T17:30:08-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Titulos negociables. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Titulos negociables. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Otros activos de capital de trabajo</atom:title>
+		<atom:link href="?id=urn:uuid:a0bb5920-c761-491b-8240-e646259011b7" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1244" scheme="urn:o3bpa:id" term="CALC_IND_demo_1244" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="17" scheme="urn:o3bpa:internalId" term="17" />
+		<atom:category label="1244" scheme="urn:o3bpa:instanceId" term="1244" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:08-03:00</atom:updated>
+		<atom:id>urn:uuid:a0bb5920-c761-491b-8240-e646259011b7</atom:id>
+		<atom:published>2022-01-12T17:30:08-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Otros activos de capital de trabajo. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Otros activos de capital de trabajo. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Tierra</atom:title>
+		<atom:link href="?id=urn:uuid:47d059d0-07d8-4d30-b63b-51978c8a7c1c" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1245" scheme="urn:o3bpa:id" term="CALC_IND_demo_1245" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="19" scheme="urn:o3bpa:internalId" term="19" />
+		<atom:category label="1245" scheme="urn:o3bpa:instanceId" term="1245" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:08-03:00</atom:updated>
+		<atom:id>urn:uuid:47d059d0-07d8-4d30-b63b-51978c8a7c1c</atom:id>
+		<atom:published>2022-01-12T17:30:08-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Tierra. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Tierra. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Efectivo</atom:title>
+		<atom:link href="?id=urn:uuid:73a091f5-a63a-4856-8694-71a3ed1545a5" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1240" scheme="urn:o3bpa:id" term="CALC_IND_demo_1240" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="13" scheme="urn:o3bpa:internalId" term="13" />
+		<atom:category label="1240" scheme="urn:o3bpa:instanceId" term="1240" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:07-03:00</atom:updated>
+		<atom:id>urn:uuid:73a091f5-a63a-4856-8694-71a3ed1545a5</atom:id>
+		<atom:published>2022-01-12T17:30:07-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Efectivo. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Efectivo. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Deuda activa</atom:title>
+		<atom:link href="?id=urn:uuid:5a0b672f-488a-453b-b19e-3242f5603440" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1241" scheme="urn:o3bpa:id" term="CALC_IND_demo_1241" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="14" scheme="urn:o3bpa:internalId" term="14" />
+		<atom:category label="1241" scheme="urn:o3bpa:instanceId" term="1241" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:07-03:00</atom:updated>
+		<atom:id>urn:uuid:5a0b672f-488a-453b-b19e-3242f5603440</atom:id>
+		<atom:published>2022-01-12T17:30:07-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Deuda activa. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Deuda activa. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Inventarios</atom:title>
+		<atom:link href="?id=urn:uuid:0977a977-9515-4b4c-9774-4250f06949cb" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1242" scheme="urn:o3bpa:id" term="CALC_IND_demo_1242" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="15" scheme="urn:o3bpa:internalId" term="15" />
+		<atom:category label="1242" scheme="urn:o3bpa:instanceId" term="1242" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:07-03:00</atom:updated>
+		<atom:id>urn:uuid:0977a977-9515-4b4c-9774-4250f06949cb</atom:id>
+		<atom:published>2022-01-12T17:30:07-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Inventarios. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Inventarios. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Impuesto a los ingresos</atom:title>
+		<atom:link href="?id=urn:uuid:aa88eff7-ecb6-4f50-88e7-5c0c8eaf7f87" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1235" scheme="urn:o3bpa:id" term="CALC_IND_demo_1235" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="7" scheme="urn:o3bpa:internalId" term="7" />
+		<atom:category label="1235" scheme="urn:o3bpa:instanceId" term="1235" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:06-03:00</atom:updated>
+		<atom:id>urn:uuid:aa88eff7-ecb6-4f50-88e7-5c0c8eaf7f87</atom:id>
+		<atom:published>2022-01-12T17:30:06-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Impuesto a los ingresos. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Impuesto a los ingresos. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Ventas</atom:title>
+		<atom:link href="?id=urn:uuid:92bf88a7-db15-4462-bdf0-f9c2cfde9273" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1236" scheme="urn:o3bpa:id" term="CALC_IND_demo_1236" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="8" scheme="urn:o3bpa:internalId" term="8" />
+		<atom:category label="1236" scheme="urn:o3bpa:instanceId" term="1236" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:06-03:00</atom:updated>
+		<atom:id>urn:uuid:92bf88a7-db15-4462-bdf0-f9c2cfde9273</atom:id>
+		<atom:published>2022-01-12T17:30:06-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Ventas. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Ventas. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Costo de los bienes vendidos</atom:title>
+		<atom:link href="?id=urn:uuid:993fe255-c166-415c-b9b3-64390624a5bf" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1232" scheme="urn:o3bpa:id" term="CALC_IND_demo_1232" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="4" scheme="urn:o3bpa:internalId" term="4" />
+		<atom:category label="1232" scheme="urn:o3bpa:instanceId" term="1232" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:05-03:00</atom:updated>
+		<atom:id>urn:uuid:993fe255-c166-415c-b9b3-64390624a5bf</atom:id>
+		<atom:published>2022-01-12T17:30:05-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Costo de los bienes vendidos. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Costo de los bienes vendidos. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Gastos de administracion y ventas</atom:title>
+		<atom:link href="?id=urn:uuid:7f33101f-5387-4dd0-b75f-92dc5d56ab54" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1233" scheme="urn:o3bpa:id" term="CALC_IND_demo_1233" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="5" scheme="urn:o3bpa:internalId" term="5" />
+		<atom:category label="1233" scheme="urn:o3bpa:instanceId" term="1233" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:05-03:00</atom:updated>
+		<atom:id>urn:uuid:7f33101f-5387-4dd0-b75f-92dc5d56ab54</atom:id>
+		<atom:published>2022-01-12T17:30:05-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Gastos de administracion y ventas. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Gastos de administracion y ventas. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+	<atom:entry>
+		<atom:title>Error en Cálculo, Ind: Intereses pagados</atom:title>
+		<atom:link href="?id=urn:uuid:48bd3b84-270b-4509-b4cb-5c19afd34b2c" rel="edit" type="application/atom+xml" />
+		<atom:category label="ERROR" scheme="urn:o3bpa:eventType" term="ERROR" />
+		<atom:category label="CALC_IND_demo_1234" scheme="urn:o3bpa:id" term="CALC_IND_demo_1234" />
+		<atom:category label="biz.ideasoft.o3bpa.CALC_ERROR" scheme="urn:o3bpa:eventName" term="biz.ideasoft.o3bpa.CALC_ERROR" />
+		<atom:category label="1231" scheme="urn:o3bpa:owner" term="1231" />
+		<atom:category label="6" scheme="urn:o3bpa:internalId" term="6" />
+		<atom:category label="1234" scheme="urn:o3bpa:instanceId" term="1234" />
+		<atom:category label="indicator" scheme="urn:o3bpa:artifactType" term="indicator" />
+		<atom:updated>2022-01-12T17:30:05-03:00</atom:updated>
+		<atom:id>urn:uuid:48bd3b84-270b-4509-b4cb-5c19afd34b2c</atom:id>
+		<atom:published>2022-01-12T17:30:05-03:00</atom:published>
+		<atom:content type="html">&lt;b&gt;Motivo:&lt;/b&gt; Data access error for indicator Intereses pagados. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:content>
+		<atom:summary>Motivo: Data access error for indicator Intereses pagados. Error: biz.ideasoft.o3bpa.calculation.schema.ConnectionException: java.sql.SQLException: Can't obtain the driver session from: view://localhost:7777: Connection refused.</atom:summary>
+	</atom:entry>
+</atom:feed>
+
